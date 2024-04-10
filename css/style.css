@@ -1,0 +1,42 @@
+*{
+    background-color: black;
+    color: rgb(47, 255, 82);
+    font-family: monospace;
+}
+
+body{
+    font-size: 16px;
+}
+
+/* h1, h2{
+    if no comma in the selector it will look for nested selectors 
+    color: blue
+} */
+
+.smallH3{
+    font-size: 12px;
+}
+
+.gray {
+    /* specificity over rules selectors */
+    color: gray;
+}
+
+p{ 
+
+}
+
+/* p{
+    color: red
+} */
+
+/* .highlight {
+    text-transform: uppercase;
+    background-color: gold;
+} */
+
+
+/* IDs should only be used once */
+#second {
+    font-style: italic;
+}
